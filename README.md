@@ -12,3 +12,4 @@ cd ClientApp/
 npm i
 ng serve
 ```
+Or execute sln in VStudio or Rider.
