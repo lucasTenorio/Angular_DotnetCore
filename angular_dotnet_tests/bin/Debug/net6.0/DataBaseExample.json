@@ -1,0 +1,33 @@
+[
+    {
+      "name": "France",
+      "vatRate": [
+        5.5,
+        20,
+        10
+      ]
+    },
+    {
+      "name": "United Kingdom",
+      "vatRate": [
+        6,
+        13,
+        23
+      ]
+    },
+    {
+      "name": "Portugal",
+      "vatRate": [
+        6,
+        13,
+        23
+      ]
+    },
+    {
+      "name": "Spain",
+      "vatRate": [
+        21,
+        10
+      ]
+    }
+]

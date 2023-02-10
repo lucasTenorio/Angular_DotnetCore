@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44458",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "/home/lucas/RiderProjects/angular_dotnet/angular_dotnet/ClientApp/",
+"MaxTimeoutInSeconds": "120"
+}
+}

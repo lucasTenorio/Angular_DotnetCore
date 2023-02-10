@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=82c64a58_002D8dc7_002D4717_002D8552_002D985fc7339a05/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldReturnListOfCountries #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::DC4F4B5D-AE1D-40E1-B97E-A9E507A848D1::net6.0::angular_dotnet_tests.CountryRepositoryTest.ShouldReturnListOfCountries&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=89d5f08e_002Ddfc6_002D4d83_002D98a0_002D0c0c9889225f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldReturnListOfCountries" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::DC4F4B5D-AE1D-40E1-B97E-A9E507A848D1::net6.0::angular_dotnet_tests.CountryRepositoryTest.ShouldReturnListOfCountries&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

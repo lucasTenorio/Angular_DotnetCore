@@ -1,0 +1,39 @@
+<mat-card class="w-100" *ngIf="formGroup && !loading">
+  <mat-card-content [formGroup]="formGroup" class="flex-column container">
+    <div class="row d-flex">
+      <mat-form-field class="col-4">
+        <mat-label>Country</mat-label>
+          <mat-select formControlName="country" >
+              <mat-option (onSelectionChange)="loadVatRate(country.vatRate, $event)" *ngFor="let country of countryData" value="{{country.name}}">{{country.name}}</mat-option>
+          </mat-select>
+      </mat-form-field>
+      <mat-radio-group formControlName="vatRate" class="col-6 d-flex flex-lg-wrap align-content-center" *ngIf="vatList">
+        <mat-label class="vat-label align-content-center">VAT rate</mat-label>
+        <mat-radio-button value="{{vatRate}}" class="col-3"  *ngFor="let vatRate of vatList">{{vatRate}} %&nbsp;</mat-radio-button>
+      </mat-radio-group>
+    </div>
+    <div class="row d-flex">
+        <mat-radio-group formControlName="radioRateTax" class="vat-options" (change)="enableInputTax()">
+          <div>
+            <mat-radio-button value="withoutTax" class="col-4 align-content-center d-flex">Price Without VAT</mat-radio-button>
+            <mat-form-field class="col-8">
+              <input matInput formControlName="withoutTaxText" type="number" (change)="updateTaxesInput($event)"/><br/>
+            </mat-form-field>
+          </div>
+          <div class="flex-row">
+            <mat-radio-button value="valueAdded" class="col-4 align-content-center d-flex">Value-Added Tax</mat-radio-button>
+            <mat-form-field class="col-8">
+              <input matInput formControlName="addedTaxText" type="number" (change)="updateTaxesInput($event)"/><br/>
+            </mat-form-field>
+          </div>
+          <div class="flex-row">
+            <mat-radio-button value="priceIncluded" class="col-4 align-content-center d-flex">Price Included VAT</mat-radio-button>
+            <mat-form-field class="col-8">
+              <input matInput formControlName="priceIncludedVatText" type="number" (change)="updateTaxesInput($event)"/><br/>
+            </mat-form-field>
+          </div>
+
+        </mat-radio-group>
+    </div>
+  </mat-card-content>
+</mat-card>
