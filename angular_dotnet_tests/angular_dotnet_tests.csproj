@@ -22,7 +22,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\angular_dotnet\angular_dotnet.csproj" />
       <ProjectReference Include="..\dotnet\angular_dotnet.csproj" />
     </ItemGroup>
 
